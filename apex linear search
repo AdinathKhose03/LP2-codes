@@ -1,3 +1,10 @@
+LinearSearchExample.searchExample();
+
+
+
+code:
+
+
 public class LinearSearchExample {
     
     // Function to perform linear search
@@ -10,8 +17,8 @@ public class LinearSearchExample {
         return -1; // Return -1 if target not found
     }
     
-    // Main method to demonstrate the linear search
-    public static void main(String []args) {
+    // Example of usage
+    public static void searchExample() {
         Integer[] arr = new Integer[]{5, 10, 15, 20, 25, 30};
         Integer target = 20;
         Integer index = linearSearch(arr, target);
